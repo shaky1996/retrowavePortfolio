@@ -8,14 +8,14 @@ import TechStack from './components/TechStack';
 function App() {
   return (
     <div className="App">
-        <div className='leftCol'>
+        <div className='flex flex-col items-center lg:items-end leftCol w-full mt-5'>
         <About />
         <Socials />
         </div>
         <div className='middleCol'>
         <Profile />
         </div>
-        <div className='rightCol'>
+        <div className='rightCol w-full flex flex-col items-center lg:items-start'>
         <Projects />
         <TechStack />
         </div>

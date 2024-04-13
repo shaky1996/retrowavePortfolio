@@ -5,12 +5,12 @@ import { profilePic } from '../assets';
 const Profile = () => {
     return (
         <div>
-        <div className='  border-gradient rounded-lg p-0.5 profile'>
-            <div className='bg-slate-950 flex flex-col items-center  rounded-lg px-3 py-1'>
+        <div className='  mt-5 md:mt-0 border-gradient rounded-lg p-0.5 profile'>
+            <div className='neon-border bg-slate-950 flex flex-col items-center  rounded-lg px-1 py-1'>
                 <div className='w-full h-3 border-4 border-pink-600 rounded-xl'>
 
                 </div>
-                <div className='mt-1 border-gradient p-0.5 w-full'>
+                <div className='mt-1 border-gradient p-0.5 w-72 '>
                     <img
                         src={profilePic}
                         className=' object-cover'
