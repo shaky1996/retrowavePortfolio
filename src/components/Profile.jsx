@@ -10,13 +10,14 @@ const Profile = () => {
                 <div className='w-full h-3 border-4 border-pink-600 rounded-xl'>
 
                 </div>
-                <div className='mt-1 border-gradient p-0.5 w-60'>
+                <div className='mt-1 border-gradient p-0.5 w-full'>
                     <img
                         src={profilePic}
                         className=' object-cover'
                     />
                 </div>
-                <div className='mt-3 flex flex-col items-center  p-3'>
+                <div className='chakra-font mt-3 flex flex-col items-center  p-3'>
+                <h1 className='text-blue  text-3xl'>Hello,</h1>
                     <h1 className='text-blue  text-3xl'>I'm Shak</h1>
                     <h2 className='neon-text mt-3 text-2xl'>FRONTEND</h2>
                     <h2 className=' neon-text text-2xl'>DEVELOPER</h2>
@@ -28,7 +29,7 @@ const Profile = () => {
             </div>
         </div>
         <div className='neon-border flex items-center justify-center mt-5 border-2 border-cyan-600 rounded-xl py-2'>
-            <h1 className='text-xl'>FRONTEND DEVELOPER</h1>
+            <h1 className='text-xl text-cyan-500'>FRONTEND DEVELOPER</h1>
         </div>
         </div>
     );

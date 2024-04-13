@@ -4,8 +4,10 @@ import SideBox from './smallComponents/SideBox'
 
 const Socials = () => {
   return (
-    <div>Socials
-        <SideBox />
+    <div>
+        <SideBox>
+            <h1 className='font-side-box'>CONNECT</h1>
+        </SideBox>
     </div>
   )
 }

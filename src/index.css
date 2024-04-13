@@ -1,11 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
 .border-gradient {
     @apply bg-gradient-to-b from-pink-600 via-fuchsia-800 to-pink-800;
     background-color: rgb(0, 179, 179);
+}
+
+.border-gradient-side {
+    @apply bg-gradient-to-b from-pink-600 via-fuchsia-800 to-blue-800;
+    background-color: rgb(0, 165, 242);
 }
 
 .text-blue {
@@ -31,3 +37,22 @@
   0 0 10px #f0f; 
   }
 
+  .font-side-box {
+    @apply text-3xl text-pink-500;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .p-side-box {
+    @apply p-3 text-cyan-400 text-lg;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .chakra-font {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }

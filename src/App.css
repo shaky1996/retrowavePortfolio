@@ -1,13 +1,19 @@
 
 
 .App {
- display: grid;
-   grid-template-columns: 1fr 1fr 1fr; /* Adjust the fr units based on your design needs */
-   height: 100vh; /* Full viewport height */
+@apply grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-0 xl:grid-cols-3 xl:h-[100vh];/* Adjust the fr units based on your design needs */
+    padding: 40px;
    align-items: center; /* Aligns items vertically */
    justify-items: center; /* Aligns items horizontally */
-   background-color: rgb(10, 1, 18);
-   color:white
+   background-color: #020617;
+   color:white;  
+   
 }
 
+.middleCol {
+    @apply order-first xl:order-none;
+}
 
+.leftCol, .rightCol {
+    @apply flex flex-col gap-5;
+}

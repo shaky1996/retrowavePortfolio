@@ -4,8 +4,10 @@ import SideBox from './smallComponents/SideBox'
 
 const TechStack = () => {
   return (
-    <div>TechStack
-        <SideBox />
+    <div>
+        <SideBox>
+            <h1 className='font-side-box'>TECH STACK</h1>
+        </SideBox>
     </div>
   )
 }
