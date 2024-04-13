@@ -4,10 +4,30 @@
 
 
 .border-gradient {
-    @apply bg-gradient-to-b from-pink-700 via-fuchsia-800 to-pink-800;
-    background-color: rgb(0, 251, 251);
+    @apply bg-gradient-to-b from-pink-600 via-fuchsia-800 to-pink-800;
+    background-color: rgb(0, 179, 179);
 }
 
 .text-blue {
     color: rgb(0, 251, 251);
 }
+
+.neon-text {
+    color: rgb(251, 251, 251); /* White text color */
+    text-shadow:
+      0 0 2px #19f6e8, /* Cyan glow */
+      0 0 3px #19f6e8, /* Larger cyan glow */
+      0 0 5px #19f6e8, /* Even larger cyan glow */
+      0 0 10px #0fa, /* Green glow */
+      0 0 10px #0fa; /* Larger green glow */
+  }
+
+  .neon-border {  
+  box-shadow: 
+  0 0 5px #f0f, /* Purple glow */
+ /* Larger purple glow */
+  0 0 7px #f0f, /* Even larger purple glow */
+  0 0 8px #19f6e8, /* Green glow */
+  0 0 10px #f0f; 
+  }
+
