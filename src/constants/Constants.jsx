@@ -1,4 +1,5 @@
 import { githubIcon, linkedinIcon, resumeIcon } from "../assets";
+import { htmlIcon, cssIcon, javaScriptIcon, reactIcon, postgreSqlIcon, nodeIcon, bootstrapIcon, tailwindIcon } from "../assets";
 
 
 const socials = [
@@ -22,4 +23,48 @@ const socials = [
     }
 ]
 
-export { socials }
+
+const technology = [
+    {
+        id: 1,
+        name: 'HTML',
+        icon: htmlIcon
+    },
+    {
+        id: 2,
+        name: 'CSS',
+        icon: cssIcon
+    },
+    {
+        id: 3,
+        name: 'JavaScript',
+        icon: javaScriptIcon
+    },
+    {
+        id: 4,
+        name: 'React',
+        icon: reactIcon
+    },
+    {
+        id: 5,
+        name: 'PostgreSQL',
+        icon: postgreSqlIcon
+    },
+    {
+        id: 6,
+        name: 'NodeJs(Express)',
+        icon: nodeIcon
+    },
+    {
+        id: 7,
+        name: 'Bootstrap',
+        icon: bootstrapIcon
+    },
+    {
+        id: 8,
+        name: 'Tailwind CSS',
+        icon: tailwindIcon
+    },
+]
+
+export { socials, technology }

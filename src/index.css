@@ -63,3 +63,11 @@
     0 0 20px #19f6e8, 
     0 0 40px #19f6e8;
   }
+
+  .neon-technology {
+    box-shadow:
+    0 0 10px #c026d3, 
+    0 0 12px #c026d3,
+    0 0 10px #c026d3 inset, 
+    0 0 12px #c026d3 inset;
+  }
