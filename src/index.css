@@ -19,12 +19,11 @@
 }
 
 .neon-text {
-    color: rgb(251, 251, 251); /* White text color */
     text-shadow:
-      0 0 2px #19f6e8, /* Cyan glow */
-      0 0 3px #19f6e8, /* Larger cyan glow */
-      0 0 5px #19f6e8, /* Even larger cyan glow */
-      0 0 10px #0fa, /* Green glow */
+      0 0 2px #c026d3, /* Cyan glow */
+      0 0 3px #c026d3, /* Larger cyan glow */
+      0 0 5px #c026d3, /* Even larger cyan glow */
+      0 0 10px #c026d3, /* Green glow */
       0 0 10px #0fa; /* Larger green glow */
   }
 
@@ -56,12 +55,7 @@
   }
 
   .neon-icon:hover {
-    box-shadow:
-    0 0 10px #19f6e8, 
-    0 0 12px #19f6e8,
-    0 0 25px #19f6e8, 
-    0 0 20px #19f6e8, 
-    0 0 40px #19f6e8;
+    filter: invert(33%) sepia(100%) saturate(5985%) hue-rotate(285deg) brightness(95%) contrast(92%);  
   }
 
   .neon-technology {

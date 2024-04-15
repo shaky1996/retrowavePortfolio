@@ -10,9 +10,9 @@ function SocialsIcon() {
                 placement="bottom"
                 arrow={false}
                 animation="duration-500"
-                className='bg-transparent text-white mt-0.5'
+                className='bg-transparent text-fuchsia-500 text-md m-0 p-0'
             >
-                <div className='neon-icon flex flex-row items-center justify-center bg-cyan-500 rounded-[50%] p-2'>
+                <div className='neon-icon flex flex-row items-center justify-cente rounded-[50%] p-2'>
                     <button onClick={() => window.open(item.link, '_blank')}>
                         <img
                             src={item.icon}
