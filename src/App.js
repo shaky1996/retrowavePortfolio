@@ -7,15 +7,15 @@ import TechStack from './components/TechStack';
 
 function App() {
   return (
-    <div className="App">
-        <div className='flex flex-col items-center lg:items-end leftCol w-full mt-5'>
+    <div className="App ">
+        <div className='leftCol flex flex-col items-center lg:items-end  w-full mt-5 xl:mt-0'>
         <About />
         <Socials />
         </div>
-        <div className='middleCol'>
+        <div className='middleCol '>
         <Profile />
         </div>
-        <div className='rightCol w-full flex flex-col items-center lg:items-start'>
+        <div className='rightCol flex flex-col items-center lg:items-start  w-full mt-5 xl:mt-0'>
         <Projects />
         <TechStack />
         </div>

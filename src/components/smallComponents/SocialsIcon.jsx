@@ -12,7 +12,7 @@ function SocialsIcon() {
                 animation="duration-500"
                 className='bg-transparent text-white mt-0.5'
             >
-                <div className='neon-icon flex flex-row items-center justify-center bg-cyan-500 rounded-[50%] p-3'>
+                <div className='neon-icon flex flex-row items-center justify-center bg-cyan-500 rounded-[50%] p-2'>
                     <button onClick={() => window.open(item.link, '_blank')}>
                         <img
                             src={item.icon}

@@ -42,7 +42,7 @@ const technology = [
     },
     {
         id: 4,
-        name: 'React',
+        name: 'React / React Native',
         icon: reactIcon
     },
     {

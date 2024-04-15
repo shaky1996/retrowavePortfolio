@@ -1,17 +1,23 @@
 
 
 .App {
-@apply grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-0 xl:grid-cols-3 xl:h-[100vh];/* Adjust the fr units based on your design needs */
+@apply grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-2 lg:h-[100vh];/* Adjust the fr units based on your design needs */
     padding: 20px;
+    
    align-items: center; /* Aligns items vertically */
    justify-items: center; /* Aligns items horizontally */
    background-color: #020617;
-   color:white;  
    
 }
 
+@media (min-width: 1280px) { 
+    .App {
+        grid-template-columns: 1fr 0.5fr 1fr;
+    }
+}
+
 .middleCol {
-    @apply order-first xl:order-none;
+    @apply order-first lg:col-span-2 xl:col-span-1 xl:order-none ;
 }
 
 .leftCol, .rightCol {
