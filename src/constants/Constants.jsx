@@ -19,7 +19,7 @@ const socials = [
         name: 'Resume',
         icon: resumeIcon,
         link: 'https://github.com/shaky1996'
-    },
-
-
+    }
 ]
+
+export { socials }
