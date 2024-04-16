@@ -1,6 +1,7 @@
 import React from 'react'
 import SideBox from './smallComponents/SideBox'
 import Carousel from './smallComponents/Carousel'
+import Modal from './smallComponents/Modal'
 
 
 const Projects = () => {
@@ -9,7 +10,8 @@ const Projects = () => {
         <SideBox>
             <h1 className='font-side-box'>PROJECTS</h1>
             <div>
-            <Carousel />
+            {/* <Carousel /> */}
+            <Modal />
             </div>
             
         </SideBox>
