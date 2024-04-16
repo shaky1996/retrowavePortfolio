@@ -1,6 +1,19 @@
-import { githubIcon, linkedinIcon, resumeIcon } from "../assets";
-import { htmlIcon, cssIcon, javaScriptIcon, reactIcon, postgreSqlIcon, nodeIcon, bootstrapIcon, tailwindIcon } from "../assets";
-
+import {
+    githubIcon,
+    linkedinIcon,
+    resumeIcon,
+    htmlIcon,
+    cssIcon,
+    javaScriptIcon,
+    reactIcon,
+    postgreSqlIcon,
+    nodeIcon,
+    bootstrapIcon,
+    tailwindIcon,
+    barcelona,
+    ufit,
+    portfolio
+} from '../assets';
 
 const socials = [
     {
@@ -21,8 +34,7 @@ const socials = [
         icon: resumeIcon,
         link: 'https://github.com/shaky1996'
     }
-]
-
+];
 
 const technology = [
     {
@@ -64,7 +76,31 @@ const technology = [
         id: 8,
         name: 'Tailwind CSS',
         icon: tailwindIcon
-    },
-]
+    }
+];
 
-export { socials, technology }
+const project = [
+    {
+        id: 1,
+        name: 'Barcelona',
+        demo: 'https://shakbarcelona2024.web.app/',
+        github: 'https://github.com/shaky1996/portfolio_barcelona',
+        image: barcelona
+    },
+    {
+        id: 2,
+        name: 'uFit',
+        demo: 'https://snack.expo.dev/@yuldashev1996/ufit---portfolio-project-?platform=ios',
+        github: 'https://github.com/shaky1996/uFit',
+        image: ufit
+    },
+    {
+        id: 3,
+        name: 'Portfolio',
+        demo: 'https://portfolioshakhzod2024.web.app/',
+        github: 'https://github.com/shaky1996/Portfolio',
+        image: portfolio
+    }
+];
+
+export { socials, technology, project };

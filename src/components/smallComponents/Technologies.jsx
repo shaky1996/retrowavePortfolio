@@ -12,7 +12,7 @@ const Technologies = () => {
                     placement='bottom'
                     arrow={false}
                     animation='duration-500'
-                    className='bg-transparent text-fuchsia-500 text-xs m-0 p-0'
+                    className='bg-transparent text-pink-500 text-xs m-0 p-0'
                 >
                     <div key={item.id} className='neon-icon '>
                         <img

@@ -5,18 +5,16 @@
 
 
 .border-gradient {
-    @apply bg-gradient-to-b from-pink-600 via-fuchsia-800 to-pink-800 bg-cyan-500;
+    @apply bg-gradient-to-b from-pink-700 via-fuchsia-800 to-pink-800 bg-cyan-700;
     
 }
 
 .border-gradient-side {
-    @apply bg-gradient-to-b from-pink-600 via-fuchsia-800 to-blue-800 bg-cyan-500;
+    @apply bg-gradient-to-b from-pink-700 via-fuchsia-800 to-blue-800 bg-cyan-700;
     
 }
 
-.text-blue {
-    color: rgb(0, 251, 251);
-}
+
 
 .neon-text {
     text-shadow:
@@ -36,7 +34,7 @@
   }
 
   .p-side-box {
-    @apply p-3 text-cyan-400 text-lg;
+    @apply p-3 text-cyan-500 text-lg;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -49,7 +47,7 @@
   }
 
   .neon-icon:hover {
-    filter: invert(33%) sepia(100%) saturate(5985%) hue-rotate(285deg) brightness(95%) contrast(92%);  
+    filter: invert(50%) sepia(64%) saturate(4887%) hue-rotate(305deg) brightness(98%) contrast(89%);
   }
 
   .neon-technology {
