@@ -46,11 +46,21 @@ const Carousel = () => {
                         ))}
                     </div>
                     {/* Render the current slide's content */}
-                    <div className='flex flex-row justify-start items-start w-full mt-2 gap-5'>
-                        <div className='text-white flex flex-col items-start justify-start'>
-                            <h1 className='text-white'>
+                    <div className='flex flex-row justify-center items-start w-full mt-5 gap-5'>
+                    <div className='flex justify-center items-center w-1/2'>
+                            <img
+                                src={project[currentProject].image}
+                                alt={project[currentProject].name}
+                                className='h-40 w-40 md:h-52 md:w-full object-cover rounded-xl border-2 border-slate-700'
+                            />
+                        </div>
+                        <div className='flex flex-col items-start justify-start w-1/2 chakra-font px-2'>  
+                            <p className=' text-pink-500 text-lg'>
                                 {project[currentProject].name}
-                            </h1>
+                            </p>
+                            <div className='flex flex-col mt-3'>
+                            <p className='text-sm text-cyan-500'>{project[currentProject].description}</p>
+                            </div>
                             <div className='flex flex-row gap-2 mt-4  '>
                                 <button
                                     className='button-projects neon-icon'
@@ -86,13 +96,7 @@ const Carousel = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className='flex justify-end items-end'>
-                            <img
-                                src={project[currentProject].image}
-                                alt={project[currentProject].name}
-                                className='h-28 w-40 object-cover rounded-xl'
-                            />
-                        </div>
+                        
                     </div>
                 </div>
             </div>

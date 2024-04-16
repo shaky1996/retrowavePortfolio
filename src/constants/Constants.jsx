@@ -82,27 +82,30 @@ const technology = [
 const project = [
     {
         id: 1,
-        name: 'Barcelona',
+        name: 'BARCELONA',
         demo: 'https://shakbarcelona2024.web.app/',
         github: 'https://github.com/shaky1996/portfolio_barcelona',
         image: barcelona,
-        stack: ['HTML', 'CSS', 'JavaScript']
+        stack: ['html', 'css', 'javascript'],
+        description: 'Responsive HTML website serves as a demonstration of my expertise in web fundamentals through the utilization of HTML, CSS, JavaScript and fetching data from an API without using any frameworks.'
     },
     {
         id: 2,
-        name: 'uFit',
+        name: 'UFIT',
         demo: 'https://snack.expo.dev/@yuldashev1996/ufit---portfolio-project-?platform=ios',
         github: 'https://github.com/shaky1996/uFit',
         image: ufit,
-        stack: ['ReactNative', 'JavaScript', 'ExpoGo']
+        stack: ['reactNative', 'javascript', 'expoGo'],
+        description: 'React Native fitness app — lets users find instructions for different workouts with an easy-to-use interface. Users also can track workouts using built-in templates.'
     },
     {
         id: 3,
-        name: 'Portfolio',
+        name: 'PORTFOLIO',
         demo: 'https://portfolioshakhzod2024.web.app/',
         github: 'https://github.com/shaky1996/Portfolio',
         image: portfolio,
-        stack: ['React', 'Bootstrap', 'JavaScript']
+        stack: ['react', 'bootstrap', 'javascript'],
+        description: 'Fully reponsive website built with React and react-bootstrap. Implemneted the use of framer motion animations as well as bootstrap classes for resposnive design.'
     }
 ];
 
