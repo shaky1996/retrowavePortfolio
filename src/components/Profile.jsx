@@ -13,7 +13,7 @@ const Profile = () => {
                 <div className='mt-1 border-gradient p-0.5 w-60 xl:w-72 '>
                     <img
                         src={profilePic}
-                        className=' object-cover'
+                        className=' object-cover grayscale-[50%]'
                     />
                 </div>
                 <div className='chakra-font mt-3 flex flex-col items-center  p-3'>

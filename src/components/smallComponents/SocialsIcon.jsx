@@ -17,7 +17,7 @@ function SocialsIcon() {
                         <img
                             src={item.icon}
                             alt={item.name}
-                            className='w-14 h-14'
+                            className='w-14 h-14 hover:scale-110 transition duration-300 ease-in-out'
                         />
                     </button>
                 </div>

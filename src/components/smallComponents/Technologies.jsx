@@ -18,7 +18,7 @@ const Technologies = () => {
                         <img
                             src={item.icon}
                             alt={item.name}
-                            className='w-12 h-12'
+                            className='w-12 h-12 hover:scale-110 transition duration-300 ease-in-out'
                         />
                     </div>
                 </Tooltip>

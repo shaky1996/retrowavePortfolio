@@ -1,12 +1,16 @@
 
 
 .App {
-@apply grid grid-cols-1 lg:grid-cols-2 gap-5 xl:gap-2 lg:h-[100vh];/* Adjust the fr units based on your design needs */
-    padding: 20px;
+@apply grid grid-cols-1 lg:grid-cols-2 md:gap-5 xl:gap-6 lg:h-[100vh] py-5;/* Adjust the fr units based on your design needs */
+
     
    align-items: center; /* Aligns items vertically */
    justify-items: center; /* Aligns items horizontally */
-   background-color: #020617;
+   background-image: url('./assets/images/bg-5.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+
    
 }
 
@@ -18,8 +22,10 @@
 
 .middleCol {
     @apply order-first lg:col-span-2 xl:col-span-1 xl:order-none ;
+    z-index: 1;
 }
 
 .leftCol, .rightCol {
     @apply flex flex-col gap-5;
+    z-index: 1;
 }
