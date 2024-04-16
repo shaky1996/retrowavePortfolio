@@ -14,6 +14,8 @@ import tailwindIcon from './images/techstack/tailwindcss.svg';
 import barcelona from './images/projects/barcelona.png'
 import ufit from './images/projects/ufit.png'
 import portfolio from './images/projects/portfolio.png'
+import arrowIcon from './images/misc/arrow.svg'
+import codeIcon from './images/misc/code.svg'
 
 export {
     profilePic,
@@ -31,5 +33,7 @@ export {
     tailwindIcon,
     barcelona,
     ufit,
-    portfolio
+    portfolio,
+    arrowIcon,
+    codeIcon
 };

@@ -85,21 +85,24 @@ const project = [
         name: 'Barcelona',
         demo: 'https://shakbarcelona2024.web.app/',
         github: 'https://github.com/shaky1996/portfolio_barcelona',
-        image: barcelona
+        image: barcelona,
+        stack: ['HTML', 'CSS', 'JavaScript']
     },
     {
         id: 2,
         name: 'uFit',
         demo: 'https://snack.expo.dev/@yuldashev1996/ufit---portfolio-project-?platform=ios',
         github: 'https://github.com/shaky1996/uFit',
-        image: ufit
+        image: ufit,
+        stack: ['ReactNative', 'JavaScript', 'ExpoGo']
     },
     {
         id: 3,
         name: 'Portfolio',
         demo: 'https://portfolioshakhzod2024.web.app/',
         github: 'https://github.com/shaky1996/Portfolio',
-        image: portfolio
+        image: portfolio,
+        stack: ['React', 'Bootstrap', 'JavaScript']
     }
 ];
 
