@@ -9,8 +9,8 @@ const Projects = () => {
     <div>
         <SideBox>
             <h1 className='font-side-box'>PROJECTS</h1>
-            <div>
-            {/* <Carousel /> */}
+            <div className='h-full flex items-center justify-center'>
+ 
             <Modal />
             </div>
             

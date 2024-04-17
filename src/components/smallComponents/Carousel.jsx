@@ -19,10 +19,10 @@ const Carousel = () => {
                             <button
                                 key={item.id}
                                 onClick={() => goToSlide(index)}
-                                className={`chakra-font text-xl group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border  bg-transparent px-5 font-medium transition-all duration-200 [box-shadow:3px_5px_#991b1b] hover:translate-x-[2px] hover:translate-y-[2px] hover:[box-shadow:0px_0px_rgb(82_82_82)] hover:border-yellow-500 ${
+                                className={`chakra-font text-xl group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border  bg-transparent px-5 font-medium transition-all duration-200 [box-shadow:3px_5px_#991b1b] hover:translate-x-[2px] hover:translate-y-[2px] hover:[box-shadow:0px_0px_rgb(82_82_82)] ${
                                     currentProject === index
-                                        ? ' text-green-500 border-green-500 translate-x-[2px] translate-y-[2px] [box-shadow:none] hover:border-green-500'
-                                        : ' text-red-700 border-red-700'
+                                        ? ' text-green-500 border-green-500 translate-x-[2px] translate-y-[2px] [box-shadow:none] '
+                                        : ' text-red-700 border-red-700 '
                                 }`}
                             >
                                {item.id}
@@ -30,7 +30,7 @@ const Carousel = () => {
                         ))}
                     </div>
                     {/* Render the current slide's content */}
-                    <div className='flex flex-col md:flex-row justify-center items-start w-full my-5 gap-5'>
+                    <div className='flex flex-col md:flex-row justify-center items-center w-full my-5 gap-5'>
                     <div className='flex justify-center items-center md:w-1/2'>
                             <img
                                 src={project[currentProject].image}
@@ -44,6 +44,9 @@ const Carousel = () => {
                             </p>
                             <div className='flex flex-col mt-3'>
                             <p className='text-sm text-cyan-500'>{project[currentProject].description}</p>
+                            <p className='mt-2 text-neutral-500 text-sm'>{project[currentProject].stack.map((tech) => (
+                                `#${tech} `
+                            ))}</p>
                             </div>
                             <div className='flex flex-row gap-2 mt-4  '>
                                 <button

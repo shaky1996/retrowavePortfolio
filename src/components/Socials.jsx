@@ -10,7 +10,7 @@ const Socials = () => {
                 <h1 className='font-side-box'>CONNECT</h1>
                 <div className='flex flex-row items-center justify-center h-full gap-5'>
                     <SocialsIcon />
-                </div>
+                </div> 
             </SideBox>
         </div>
     );

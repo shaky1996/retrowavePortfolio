@@ -16,6 +16,7 @@ import ufit from './images/projects/ufit.png'
 import portfolio from './images/projects/portfolio.png'
 import arrowIcon from './images/misc/arrow.svg'
 import codeIcon from './images/misc/code.svg'
+import cogsIcon from './images/misc/cogs.svg'
 
 export {
     profilePic,
@@ -35,5 +36,6 @@ export {
     ufit,
     portfolio,
     arrowIcon,
-    codeIcon
+    codeIcon,
+    cogsIcon
 };

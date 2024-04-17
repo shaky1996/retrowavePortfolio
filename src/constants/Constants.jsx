@@ -87,7 +87,7 @@ const project = [
         github: 'https://github.com/shaky1996/portfolio_barcelona',
         image: barcelona,
         stack: ['html', 'css', 'javascript'],
-        description: 'Responsive HTML website serves as a demonstration of my expertise in web fundamentals through the utilization of HTML, CSS, JavaScript and fetching data from an API without using any frameworks.'
+        description: 'Responsive website demonstartes use of web fundamentals through the utilization of HTML, CSS, JavaScript and fetching data from an API without using any frameworks.'
     },
     {
         id: 2,
