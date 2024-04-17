@@ -12,49 +12,33 @@ const Carousel = () => {
     return (
         <div className='flex flex-col items-center justify-center'>
             <div className='w-full'>
-                <div className='flex flex-col justify-center'>
-                    <div className='flex flex-row items-start justify-center'>
+                <div className='flex flex-col justify-center '>
+                    <div className='flex flex-row items-center justify-center gap-3  p-4 border-b-2 border-slate-700'>
                         {/* Render buttons for each slide */}
                         {project.map((item, index) => (
                             <button
                                 key={item.id}
                                 onClick={() => goToSlide(index)}
-                                className={`w-10 h-10 ${
+                                className={`chakra-font text-xl group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md border  bg-transparent px-5 font-medium transition-all duration-200 [box-shadow:3px_5px_#991b1b] hover:translate-x-[2px] hover:translate-y-[2px] hover:[box-shadow:0px_0px_rgb(82_82_82)] hover:border-yellow-500 ${
                                     currentProject === index
-                                        ? 'neon-button-active text-green-500 '
-                                        : 'neon-button-inactive text-red-700'
+                                        ? ' text-green-500 border-green-500 translate-x-[2px] translate-y-[2px] [box-shadow:none] hover:border-green-500'
+                                        : ' text-red-700 border-red-700'
                                 }`}
                             >
-                                <svg
-                                    viewBox='0 0 16 16'
-                                    xmlns='http://www.w3.org/2000/svg'
-                                    version='1.1'
-                                    fill='#0f172a'
-                                    stroke='currentColor '
-                                    strokeLinecap='round'
-                                    strokeLinejoin='round '
-                                    strokeWidth='1.5'
-                                    className='w-full h-full '
-                                >
-                                    <circle
-                                        cx='8'
-                                        cy='8'
-                                        r='4.25'
-                                    ></circle>
-                                </svg>
+                               {item.id}
                             </button>
                         ))}
                     </div>
                     {/* Render the current slide's content */}
-                    <div className='flex flex-row justify-center items-start w-full mt-5 gap-5'>
-                    <div className='flex justify-center items-center w-1/2'>
+                    <div className='flex flex-col md:flex-row justify-center items-start w-full my-5 gap-5'>
+                    <div className='flex justify-center items-center md:w-1/2'>
                             <img
                                 src={project[currentProject].image}
                                 alt={project[currentProject].name}
-                                className='h-40 w-40 md:h-52 md:w-full object-cover rounded-xl border-2 border-slate-700'
+                                className='h-40 w-full md:h-52 md:w-full object-cover rounded-xl border-2 border-slate-700'
                             />
                         </div>
-                        <div className='flex flex-col items-start justify-start w-1/2 chakra-font px-2'>  
+                        <div className='flex flex-col items-start justify-start md:w-1/2 chakra-font px-2'>  
                             <p className=' text-pink-500 text-lg'>
                                 {project[currentProject].name}
                             </p>
