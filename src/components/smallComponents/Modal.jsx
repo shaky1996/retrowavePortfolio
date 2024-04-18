@@ -2,20 +2,25 @@ import { Modal } from 'flowbite-react';
 import { useState } from 'react';
 import Carousel from './Carousel';
 import { cogsIcon } from '../../assets';
+import { motion } from 'framer-motion';
+
 
 const ProjectModal = () => {
     const [openModal, setOpenModal] = useState(false);
 
     return (
         <>
-            <button onClick={() => setOpenModal(true)}>
-                <div className='flex items-center justify-center rounded-[50%]  px-3 py-3 bg-cyan-500 hover:bg-pink-500 transition-colors ease-in-out duration-200'>
-                    <img
-                        src={cogsIcon}
-                        className='w-24'
-                    />
-                </div>
-            </button>
+            <motion.button
+                whileHover={{ scale: 1.1, rotate: [0, 720] }}
+                transition={{ rotate: { duration: 8 } }}
+                onClick={() => setOpenModal(true)}
+                className='bg-cyan-500 hover:bg-pink-500 rounded-[50%] p-2 '
+            >
+                <img
+                    src={cogsIcon}
+                    className='w-24'
+                />
+            </motion.button>
 
             <Modal
                 className='bg-slate-950'

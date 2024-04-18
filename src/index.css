@@ -14,17 +14,6 @@
     
 }
 
-
-
-.neon-text {
-    text-shadow:
-      0 0 2px #c026d3, /* Cyan glow */
-      0 0 3px #c026d3, /* Larger cyan glow */
-      0 0 5px #c026d3, /* Even larger cyan glow */
-      0 0 10px #c026d3, /* Green glow */
-      0 0 10px #0fa; /* Larger green glow */
-  }
-
   .font-side-box {
     @apply text-[2.2rem] text-pink-500;
     font-family: "Chakra Petch", sans-serif;
@@ -50,12 +39,12 @@
     filter: invert(50%) sepia(64%) saturate(4887%) hue-rotate(305deg) brightness(98%) contrast(89%);
   }
 
-  .neon-technology {
+  .neon-box:hover {
     box-shadow:
-    0 0 10px #c026d3, 
-    0 0 12px #c026d3,
-    0 0 10px #c026d3 inset, 
-    0 0 12px #c026d3 inset;
+    0 0 10px #ec4899, 
+    0 0 12px #ec4899,
+    0 0 10px #ec4899 inset, 
+    0 0 12px #ec4899 inset;
   }
 
   .button-projects {

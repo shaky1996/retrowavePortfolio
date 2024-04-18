@@ -1,9 +1,12 @@
 import React from 'react';
 import SideBox from './smallComponents/SideBox';
+import { motion } from 'framer-motion';
 
 const About = () => {
     return (
-        <div className='about'>
+        <motion.div
+        animate={{ opacity: [0,0, 1] }}
+        transition={{ ease: 'easeIn', duration: 5 }} className='about'>
             <SideBox>
                 <h1 className='font-side-box'>ABOUT</h1>
                 <div className='p-2'>
@@ -13,7 +16,7 @@ const About = () => {
                 </p>
                 </div>
             </SideBox>
-        </div>
+        </motion.div>
     );
 };
 
