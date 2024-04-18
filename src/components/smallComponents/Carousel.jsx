@@ -25,28 +25,32 @@ const Carousel = () => {
                                         : ' text-red-700 border-red-700 '
                                 }`}
                             >
-                               {item.id}
+                                {item.id}
                             </button>
                         ))}
                     </div>
                     {/* Render the current slide's content */}
                     <div className='flex flex-col md:flex-row justify-center items-center w-full my-5 gap-5'>
-                    <div className='flex justify-center items-center md:w-1/2'>
+                        <div className='flex justify-center items-center md:w-1/2'>
                             <img
                                 src={project[currentProject].image}
                                 alt={project[currentProject].name}
                                 className='h-40 w-full md:h-52 md:w-full object-cover rounded-xl border-2 border-slate-700'
                             />
                         </div>
-                        <div className='flex flex-col items-start justify-start md:w-1/2 chakra-font px-2'>  
+                        <div className='flex flex-col items-start justify-start md:w-1/2 chakra-font px-2'>
                             <p className=' text-pink-500 text-lg'>
                                 {project[currentProject].name}
                             </p>
                             <div className='flex flex-col mt-3'>
-                            <p className='text-sm text-cyan-500'>{project[currentProject].description}</p>
-                            <p className='mt-2 text-neutral-500 text-sm'>{project[currentProject].stack.map((tech) => (
-                                `#${tech} `
-                            ))}</p>
+                                <p className='text-sm text-cyan-500'>
+                                    {project[currentProject].description}
+                                </p>
+                                <p className='mt-2 text-neutral-500 text-sm'>
+                                    {project[currentProject].stack.map(
+                                        (tech) => `#${tech} `
+                                    )}
+                                </p>
                             </div>
                             <div className='flex flex-row gap-2 mt-4  '>
                                 <button
@@ -83,7 +87,6 @@ const Carousel = () => {
                                 </button>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>

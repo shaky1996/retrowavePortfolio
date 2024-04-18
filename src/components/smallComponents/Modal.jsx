@@ -4,7 +4,6 @@ import Carousel from './Carousel';
 import { cogsIcon } from '../../assets';
 import { motion } from 'framer-motion';
 
-
 const ProjectModal = () => {
     const [openModal, setOpenModal] = useState(false);
 
@@ -23,7 +22,7 @@ const ProjectModal = () => {
             </motion.button>
 
             <Modal
-                className='bg-slate-950'
+                className='bg-black'
                 show={openModal}
                 onClose={() => setOpenModal(false)}
                 dismissible
@@ -32,9 +31,13 @@ const ProjectModal = () => {
                     <p className='font-side-box '>PROJECTS</p>
                 </Modal.Header>
                 <Modal.Body className='bg-slate-900'>
-                    <div className='space-y-6 '>
+                    <motion.div
+                        animate={{ opacity: [0, 1] }}
+                        transition={{ duration: 1 }}
+                        className='space-y-6 '
+                    >
                         <Carousel />
-                    </div>
+                    </motion.div>
                 </Modal.Body>
             </Modal>
         </>
