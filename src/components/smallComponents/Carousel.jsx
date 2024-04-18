@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { project } from '../../constants/Constants';
-import { arrowIcon, codeIcon } from '../../assets';
+import { arrow2Icon, arrowIcon, codeIcon } from '../../assets';
 
 const Carousel = () => {
     const [currentProject, setCurrentProject] = useState(0);
@@ -13,8 +13,9 @@ const Carousel = () => {
         <div className='flex flex-col items-center justify-center'>
             <div className='w-full'>
                 <div className='flex flex-col justify-center '>
-                    <div className='flex flex-row items-center justify-center gap-3  p-4 border-b-2 border-slate-700'>
+                    <div className='flex flex-row items-center justify-center gap-3  p-4 border-b-2 border-slate-700 '>
                         {/* Render buttons for each slide */}
+
                         {project.map((item, index) => (
                             <button
                                 key={item.id}

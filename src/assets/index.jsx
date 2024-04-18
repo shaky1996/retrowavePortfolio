@@ -17,6 +17,7 @@ import portfolio from './images/projects/portfolio.png'
 import arrowIcon from './images/misc/arrow.svg'
 import codeIcon from './images/misc/code.svg'
 import cogsIcon from './images/misc/cogs.svg'
+import arrow2Icon from './images/misc/arrow2.svg'
 
 export {
     profilePic,
@@ -37,5 +38,6 @@ export {
     portfolio,
     arrowIcon,
     codeIcon,
-    cogsIcon
+    cogsIcon,
+    arrow2Icon
 };
