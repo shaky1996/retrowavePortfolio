@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className='relative h-full flex items-center justify-center bg-slate-950'>
                     <Modal />
                     <div className='absolute top-32 left-28 flex'>
-                    <img src={arrow2Icon} className='w-6' />
+                    <img src={arrow2Icon} alt='arrow' className='w-6' />
                     <p className='text-slate-700'>click</p>
                     </div>
                 </div>

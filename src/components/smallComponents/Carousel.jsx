@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { project } from '../../constants/Constants';
-import { arrow2Icon, arrowIcon, codeIcon } from '../../assets';
+import { arrowIcon, codeIcon } from '../../assets';
 
 const Carousel = () => {
     const [currentProject, setCurrentProject] = useState(0);
@@ -55,7 +55,7 @@ const Carousel = () => {
                             </div>
                             <div className='flex flex-row gap-2 mt-4  '>
                                 <button
-                                    className='button-projects neon-icon'
+                                    className='button-projects'
                                     onClick={() =>
                                         window.open(
                                             project[currentProject].demo,
@@ -71,7 +71,7 @@ const Carousel = () => {
                                     />
                                 </button>
                                 <button
-                                    className='button-projects neon-icon'
+                                    className='button-projects'
                                     onClick={() =>
                                         window.open(
                                             project[currentProject].github,

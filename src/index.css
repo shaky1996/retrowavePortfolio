@@ -35,9 +35,6 @@
     font-style: normal;
   }
 
-  .neon-icon:hover {
-    filter: invert(50%) sepia(64%) saturate(4887%) hue-rotate(305deg) brightness(98%) contrast(89%);
-  }
 
   .neon-box:hover {
     box-shadow:

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tooltip } from 'flowbite-react';
 import { technology } from '../../constants/Constants';
+import SVG from 'react-inlinesvg';
 
 const Technologies = () => {
     return (
@@ -14,11 +15,11 @@ const Technologies = () => {
                     animation='duration-500'
                     className='bg-transparent text-pink-500 text-xs m-0 p-0'
                 >
-                    <div key={item.id} className='neon-icon'>
-                        <img
+                    <div key={item.id}>
+                        <SVG
                             src={item.icon}
                             alt={item.name}
-                            className='w-12 h-12 hover:scale-110 transition duration-300 ease-in-out'
+                            className='w-12 h-12 hover:scale-110 transition duration-300 ease-in-out hover:fill-pink-500'
                         />
                     </div>
                 </Tooltip>
