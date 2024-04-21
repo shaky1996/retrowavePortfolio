@@ -1,27 +1,28 @@
 
 
 .App {
-@apply grid grid-cols-1 lg:grid-cols-2 md:gap-5 xl:gap-6 lg:h-[100vh] py-5;/* Adjust the fr units based on your design needs */
+@apply grid grid-cols-1 lg:grid-cols-2 md:gap-5 xl:gap-6 xl:h-[100vh] py-5;/* Adjust the fr units based on your design needs */
 
     
-   align-items: center; /* Aligns items vertically */
-   justify-items: center; /* Aligns items horizontally */
-   background-image: url('./assets/images/bg-5.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   
+   align-items: center; 
+   justify-items: center; 
+   background-color: #01000f;
 
-   
 }
 
 @media (min-width: 1280px) { 
     .App {
         grid-template-columns: 1fr 0.5fr 1fr;
+        background-image: url('./assets/images/bg-6.png');
+        background-repeat: no-repeat;
+        background-size: contain;   
+        background-position: center;
+        
     }
 }
 
 .middleCol {
-    @apply order-first lg:col-span-2 xl:col-span-1 xl:order-none ;
+    @apply order-first lg:col-span-2 xl:col-span-1 xl:order-none mb-12 lg:mb-0;
     z-index: 1;
 }
 

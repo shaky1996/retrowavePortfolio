@@ -12,7 +12,7 @@ const Projects = () => {
         >
             <SideBox>
                 <h1 className='font-side-box'>PROJECTS</h1>
-                <div className='relative h-full flex items-center justify-center bg-slate-950'>
+                <div className='relative h-full flex items-center justify-center'>
                     <Modal />
                     <div className='absolute top-32 left-28 flex'>
                     <img src={arrow2Icon} alt='arrow' className='w-6' />

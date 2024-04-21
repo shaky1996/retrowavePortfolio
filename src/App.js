@@ -13,7 +13,7 @@ function App() {
                     <About />
                     <Socials />
                 </div>
-                <div className='middleCol '>
+                <div className='middleCol'>
                     <Profile />
                 </div>
                 <div className='rightCol flex flex-col items-center lg:items-start  w-full mt-5 xl:mt-0'>

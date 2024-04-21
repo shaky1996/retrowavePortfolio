@@ -9,14 +9,14 @@ const Profile = () => {
             animate={{ opacity: [0, 1] }}
             transition={{ ease: 'easeIn', duration: 2 }}
         >
-            <div className='mt-5 md:mt-0 border-gradient rounded-lg p-0.5 profile'>
-                <div className='neon-border bg-slate-950 flex flex-col items-center  rounded-lg px-1 py-1'>
-                    <div className='w-full h-3 border-4 border-pink-600 rounded-xl'></div>
-                    <div className='mt-1 border-gradient p-0.5 w-60 xl:w-72 '>
+            <div className='mt-5 md:mt-0 border-gradient rounded-lg p-0.5 profile '>
+                <div className='neon-border bg-[#01000f] flex flex-col items-center  rounded-lg px-1 py-1 border-top-neon'>
+                    <div className='w-full h-3 border-4 border-pink-600 rounded-xl '></div>
+                    <div className='mt-1 border-gradient p-0.5 w-72 grayscale-[20%]'>
                         <img
                             src={profilePic}
                             alt='Retrowave man with black hair'
-                            className=' object-cover grayscale-[50%]'
+                            className=' object-cover'
                         />
                     </div>
                     <motion.div

@@ -6,7 +6,7 @@
 
 .border-gradient {
     @apply bg-gradient-to-b from-pink-700 via-fuchsia-800 to-pink-800 bg-cyan-700;
-    
+
 }
 
 .border-gradient-side {
@@ -14,12 +14,15 @@
     
 }
 
+.border-top-neon {
+    box-shadow: 0 -3px 15px -7px#ec4899;    
+}
+
   .font-side-box {
     @apply text-[2.2rem] text-pink-500;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 700;
     font-style: normal;
-    
   }
 
   .p-side-box {
