@@ -12,7 +12,8 @@ import {
     tailwindIcon,
     barcelona,
     ufit,
-    portfolio
+    portfolio,
+    resume
 } from '../assets';
 
 const socials = [
@@ -32,7 +33,7 @@ const socials = [
         id: '3',
         name: 'Resume',
         icon: resumeIcon,
-        link: 'https://github.com/shaky1996'
+        link: resume
     }
 ];
 
@@ -54,13 +55,13 @@ const technology = [
     },
     {
         id: 4,
-        name: 'React / React Native',
+        name: 'React',
         icon: reactIcon
     },
     {
         id: 5,
-        name: 'PostgreSQL',
-        icon: postgreSqlIcon
+        name: 'React Native',
+        icon: reactIcon
     },
     {
         id: 6,
