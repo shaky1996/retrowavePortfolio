@@ -18,7 +18,7 @@ import arrowIcon from './images/misc/arrow.svg'
 import codeIcon from './images/misc/code.svg'
 import cogsIcon from './images/misc/cogs.svg'
 import arrow2Icon from './images/misc/arrow2.svg'
-import resume from './Shakhzod_Yuldashev_Resume.pdf'
+import resume from './CV_Shak_Yuld.pdf'
 
 export {
     profilePic,
